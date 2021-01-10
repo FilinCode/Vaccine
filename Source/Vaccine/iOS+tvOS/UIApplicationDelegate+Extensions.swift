@@ -1,3 +1,4 @@
+#if !os(macOS)
 import UIKit
 
 public extension UIApplicationDelegate {
@@ -26,3 +27,4 @@ public extension UIApplicationDelegate {
     })
   }
 }
+#endif

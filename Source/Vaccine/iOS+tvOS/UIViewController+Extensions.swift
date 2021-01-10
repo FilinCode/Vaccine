@@ -1,3 +1,4 @@
+#if !os(macOS)
 import UIKit
 
 @objc public extension UIViewController {
@@ -215,3 +216,4 @@ import UIKit
     viewDidLoadIfNeeded(notification)
   }
 }
+#endif

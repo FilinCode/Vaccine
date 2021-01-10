@@ -1,3 +1,4 @@
+#if !os(macOS)
 import UIKit
 
 public extension UIScreen {
@@ -5,3 +6,4 @@ public extension UIScreen {
     return device.rawValue
   }
 }
+#endif

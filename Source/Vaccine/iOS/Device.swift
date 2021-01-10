@@ -1,3 +1,4 @@
+#if !os(macOS)
 import UIKit
 
 public enum Device {
@@ -60,3 +61,4 @@ public enum Device {
     return result
   }
 }
+#endif
